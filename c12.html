@@ -221,8 +221,8 @@ const PREWARN_INTRO = null;   // set to a string to also show a box on the intro
 /* --- INSTRUCTION SCREEN ------------------------------------------------- */
 const INTRO = `
   <p>You are going to have a conversation with Lumo about the health effects of drinking two to three cups of coffee a day.</p>
-  <p>As we go through the information, Lumo will occasionally ask what you think about some
-  of the points you discuss. It will give you a few options to choose from each time.</p>
+  <p>As we go through the information, Lumo will occasionally <strong>ask what you think about some
+  of the points you discuss</strong>. It will <strong>give you a few options</strong> to choose from each time.</p>
   <p><strong>Please note that these questions are simply meant to get your take on the information,
   so there are no right or wrong answers. Just choose the option that best reflects how you see
   it.</strong></p>
@@ -265,7 +265,7 @@ const TURNS = [
     options: ["The direct effects associated with regular caffeine consumption", "The uncertainty surrounding the claimed long-term health benefits", "The overall balance between potential benefits and risks"] },
   { id: "T5", kind: "open",
     opener: "**That's a well-considered judgment. The way you've worked through the different considerations suggests that you're approaching the issue thoughtfully rather than simply jumping to a conclusion.**",
-    body: "Now that we've gone through the information, I'd be interested in hearing your own take. **In a few sentences, please summarize what you personally take away from our conversation and explain how the information we discussed shapes your own view on drinking two to three cups of coffee per day.**||Please provide a substantive response that reflects the information we've discussed. Very brief or general responses may not allow the conversation to proceed. Once you've provided a sufficiently substantive response, I'll give you a code to enter in the survey so that you can continue to the next part of the study." }
+    body: "Now that we've gone through the information, I'd be interested in hearing your own take. **In a few sentences, please summarize what you personally take away from our conversation and explain how the information we discussed shapes your own view on drinking two to three cups of coffee per day.**||Please provide a response that explains your own take on the issue based on the information we've discussed. A response that is very brief or does not explain your view may not allow the conversation to proceed. Once you've provided your response, I'll give you a code to enter in the survey so that you can continue to the next part of the study." }
 ];
 
 
